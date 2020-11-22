@@ -64,7 +64,7 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
-    baseURL: env.parsed.API_URL,
+    baseURL: 'https://craiglist-api.herokuapp.com/api',
     credentials: false
   },
 
